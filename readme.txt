@@ -62,8 +62,7 @@ No, sorry. With some hacking you could make it scroll through your blog posts ;-
 
 = How can I use my ebay affiliate membership to earn commision? =
 
-You will have to buy the pro version. This widget is only free to those who sell their own product.
-If you want to make money of the back of others, then I insist you share the wealth. We could debate all day about the pros and cons of marketing but that would take two. ;-)
+You will have to buy the pro version which is at present in the final stages of development. This widget is only free to those who sell their own product.
 
 == Changelog ==
 
@@ -79,4 +78,4 @@ If you want to make money of the back of others, then I insist you share the wea
 
 * ebay auction listing engine is powered by eas_scroller with credit to Aakash Chakravarthy.
 * The news ticker effect is powered by the [jQuery Easy ticker plugin](http://www.aakashweb.com/jquery-plugins/easy-ticker/)
-* Default color styles are by Aakash Chakravarthy.
+* Default color styles are by Aakash Chakravarthy and [webimpressions] (http://www.webimpressions.co.uk/)
