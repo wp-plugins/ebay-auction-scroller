@@ -78,4 +78,4 @@ You will have to buy the pro version which is at present in the final stages of 
 
 * ebay auction listing engine is powered by eas_scroller with credit to Aakash Chakravarthy.
 * The news ticker effect is powered by the [jQuery Easy ticker plugin](http://www.aakashweb.com/jquery-plugins/easy-ticker/)
-* Default color styles are by Aakash Chakravarthy and [webimpressions] (http://www.webimpressions.co.uk/)
+* Default color styles are by Aakash Chakravarthy and [webimpressions](http://www.webimpressions.co.uk/)
