@@ -1,0 +1,194 @@
+/** 
+  * Super RSS Reader - Styles file
+  * Author: Aakash Chakravarthy
+  * Version: 1.5
+  *
+  **/
+
+/** Tab settings **/
+.wi-tab-wrap{
+	margin: 5px 0px 10px!important;
+	background: none !important;
+	border: none !important;
+	padding: 0px !important;
+}
+.wi-tab-wrap li{
+	list-style: none !important;
+	float: left;
+	background-image: none !important;
+	background-color: #fff;
+	margin: 5px 5px 0px 0px !important;
+	padding: 3px 10px!important;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.wi-active-tab{
+	background: #333 !important;
+	color: white !important;
+}
+
+/** General styling **/
+.wi-wrap{
+	padding: 0px !important;
+	max-width: 100%;
+	min-width: 100% !important;
+	display:inline-block;
+}
+.wi-wrap div{
+	left: 0px;
+	right: 0px;
+}
+.wi-wrap .wi-item{
+	border-top: 0px;
+	padding: 10px;
+}
+.wi-wrap .wi-item:last-child{
+	margin: 0px;
+}
+.wi-wrap .wi-item > *{
+	margin-bottom: 10px !important;
+}
+.wi-wrap .wi-title, .wi-wrap .wi-meta{
+	line-height: 150%;
+}
+.wi-wrap .wi-thumb{
+	width: 64px !important;
+	margin: 5px 10px 0 0 !important;
+	float: left !important;
+}
+
+/** Styles **/
+
+/** None **/
+.wi-style-none .wi-item{
+	padding: 0 0 20px 0 !important;
+}
+
+/** Grey **/
+.wi-style-grey{
+	border: 1px solid #dfdfdf;
+}
+.wi-style-grey .wi-item{
+	border-bottom: 1px solid #dfdfdf;
+}
+.wi-style-grey .even{
+	background-color: #F8F8F8;
+}
+
+/** Dark **/
+.wi-style-dark{
+	background: #000;
+	border: 1px solid #ccc;
+	color: #DDDDDD!important;
+}
+.wi-style-dark a{
+	color: #FFFFFF !important;
+}
+.wi-style-dark .wi-item{
+	border-color: #333
+}
+.wi-style-dark .even{
+	background: #333333;
+}
+.wi-tab-style-dark li{
+	border-color: #666666;
+	background: #333;
+	color: #FFFFFF !important;
+}
+.wi-tab-style-dark .wi-active-tab{
+	background: #666666!important;
+}
+
+/** Orange **/
+
+.wi-style-orange{
+	border: 2px solid #FF9900;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.wi-style-orange .wi-item{
+	border-bottom: 1px solid #FF9900;
+}
+.wi-tab-style-orange li{
+	border-color: #FF9900;
+	background: #FFF8EC;
+	color: #333333 !important;
+}
+.wi-tab-style-orange .wi-active-tab{
+	background: #FF9900!important;
+	color: #FFFFFF !important;
+}
+
+/** blue **/
+
+.wi-style-blue{
+	border: 2px solid #0080ff;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.wi-style-blue .wi-item{
+	border-bottom: 1px solid #0080ff;
+	background-color:#dbebfd;
+}
+.wi-tab-style-blue li{
+	border-color: #0080ff;
+	background: #a4ccf9;
+	color: #333333 !important;
+}
+.wi-tab-style-blue .wi-active-tab{
+	background: #0080ff!important;
+	color: #FFFFFF !important;
+}
+
+
+/** Simple modern **/
+
+.wi-style-smodern{
+	border: 0;
+}
+.wi-style-smodern .wi-item{
+	border-radius: 10px;
+	border: 0;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+}
+.wi-style-smodern:hover .wi-item{
+	opacity: 0.3;
+}
+.wi-style-smodern .wi-item:hover{
+	opacity: 1;
+}
+.wi-tab-style-smodern .wi-active-tab{
+	color: #000 !important;
+	background: #fff !important;
+	box-shadow: inset 0 0 5px #747474;
+}
+.wi-style-smodern .even{
+	background: #f8f8f8;
+}
+
+/** Clearfix hack **/
+* html .wi-clearfix{
+  height: 1%;
+  overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .wi-clearfix{
+  min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.wi-clearfix:after{
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
