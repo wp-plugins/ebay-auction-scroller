@@ -51,8 +51,8 @@ Download the latest version of Ebay auction scroller
 
 = Why is nothing showing? =
 
-Check you have entered a valid Ebay developer ID
-Check you have entered you Ebay seller ID
+Check you have entered a valid Ebay developer ID and
+Check you have entered your Ebay seller ID, check you have selected a category that you have auctions listed in.
 
 = How can I customize the Vertical Post Scroller widget externally? =
 
