@@ -14,7 +14,8 @@ An ebay auction display widget plugin, which displays scrolling auctions with th
 == Description ==
 Ebay auction scroller is an Ebay auction display widget. which displays a vertical scrolling Ebay auction listing filtered by region, category and seller id.
 It uses the jQuery easy ticker plugin to add a news ticker like effect to the auction feeds.
-Requires Ebay developer application id to function. To obtain an app id visit https://go.developer.ebay.com/
+Requires Ebay developer application id to function. To obtain an app id visit https://go.developer.ebay.com/.
+This plugin is only suitable for those who sell on Ebay it requires a seller ID to create listings.
 
 The plugin is fully customizable with external styles and with some inbuilt color styles.
 
@@ -36,6 +37,7 @@ Download the latest version of Ebay auction scroller
 1. Activate the plugin.
 1. Drag and drop the "Ebay auction scroller" widget in the "Widgets" page.
 1. Enter your Ebay developer app id. Note, anything can be entered here to activate the options. However without a valid ebay developer app id The widget will not function.
+1. Enter you Ebay seller id
 1. Choose the locale and categories to display in the widget, tweak some settings and you are,
 1. Done !
 
@@ -46,6 +48,11 @@ Download the latest version of Ebay auction scroller
 4. orange theme
 
 == Frequently Asked Questions ==
+
+= Why is nothing showing? =
+
+Check you have entered a valid Ebay developer ID
+Check you have entered you Ebay seller ID
 
 = How can I customize the Vertical Post Scroller widget externally? =
 
