@@ -37,7 +37,7 @@ Download the latest version of Ebay auction scroller
 1. Activate the plugin.
 1. Drag and drop the "Ebay auction scroller" widget in the "Widgets" page.
 1. Enter your Ebay developer app id. Note, anything can be entered here to activate the options. However without a valid ebay developer app id The widget will not function.
-1. Enter you Ebay seller id
+1. Enter your Ebay seller id
 1. Choose the locale and categories to display in the widget, tweak some settings and you are,
 1. Done !
 
@@ -51,8 +51,8 @@ Download the latest version of Ebay auction scroller
 
 = Why is nothing showing? =
 
-Check you have entered a valid Ebay developer ID and
-Check you have entered your Ebay seller ID, check you have selected a category that you have auctions listed in.
+Check you have entered a valid Ebay developer ID,
+Check you have entered your Ebay seller ID and finally check you have selected a category that you have auctions listed in.
 
 = How can I customize the Vertical Post Scroller widget externally? =
 
